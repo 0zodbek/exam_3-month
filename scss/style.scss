@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    background: #333;
+    .wrapper{
+        width: 1440px;
+        height: 9062px;
+        background: #fff;
+        margin: 0px auto;
+        // background-color: #e5ff00;
+        padding-top: 109px;
+        .main_screen{
+            width: 1240px;
+            height: 505px;
+            margin: auto;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            .main_info{
+                width: 530px;
+                height: 505px;
+                h1{
+                    margin-top: 88px;
+                    font-family: 'Exo 2';
+                    font-size: 52px;
+                    font-weight: 600;
+                    line-height: 65px;
+                    text-align: left;
+                    color: #363738;
+                }
+                p{
+                    width: 525px;
+                    font-family: 'PT Sans';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #6B6B6C;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+                a{
+                    text-decoration: none;
+                    // margin-top: 40px;
+                    font-family: 'PT Sans';
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #363738;
+                    border-bottom: 3px solid #FFCE50;
+                }
+            }
+            .main_image{
+                width: 635px;
+                height: 505px;
+                background-image: url(../images/laptop/adir-Cargo-Insurance\ 1.png);
+            }
+        }
+        .services{
+            width: 1240px;
+            height: 341px;
+            background: #fff;
+            margin: auto;
+            margin-top: 67px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 20px 0px #00000026;
+            display: flex;
+            // justify-content: space-between;
+            padding: 40px;
+            padding-left: 80px;
+            padding-bottom: 56px;
+        .Search_for_manufacturers_by_product:first-child{
+            border-left: none;
+            padding-left: 0;
+            margin-right: 57px;
+        }
+        .Search_for_manufacturers_by_product:nth-child(2){
+            // border-left: none;
+            padding-left: 64;
+            margin-right: 0;
+            margin-left: 57px;
+        }
+        .Search_for_manufacturers_by_product:last-child{
+            // border-left: none;
+            padding-left: 64px;
+            margin-left: 121px;
+        }
+        .Search_for_manufacturers_by_product{
+            width: 292px;
+            height: 245px;
+            border-left: 1px solid #D7D7DD;
+            margin-right: 121px;
+            padding-left: 64px;
+            grid-row:auto;
+            h3{
+                width: 228px;
+                font-size: 20px;
+                font-family: 'Exo 2';
+                font-weight: 600;
+                line-height: 27px;
+                text-align: left;
+                margin-top: 24px;
+                color: #363738;
+            }
+            p{
+                width: 225px;
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: #6B6B6C;
+                margin-top: 16px;
+            }
+        }
+        }
+        .why_us{
+            width: 1242px;
+            height: 748px;
+            background-color: #fff;
+            margin: auto;
+            margin-top: 67px;
+            .img_part{
+                width: 1242px;
+                height: 453px;
+                background-color: #234322;
+                background-image: url(../images/laptop/Rectangle\ 7.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                .trak{
+                    width: 769px;
+                    height: 453.5px;
+                    background-image: url(../images/laptop/why_us_bg.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    z-index: 5;
+                    position: relative;
+                    h2{
+                        position: absolute;
+                        width: 362px;
+                        top: 178px;
+                        left: 90px;
+                        font-family: 'Exo 2';
+                        font-size: 48px;
+                        font-weight: 600;
+                        line-height: 60px;
+                        text-align: left;
+                        color: #fff;
+                    }
+                }
+            }
+        .why_us_info_wrapper{
+            display: flex;
+            height: 295px;
+            width: 1242px;
+            .why_us_info{
+                width: 1242px;
+                height: 295px;
+                .our_amenities{
+                    width: 447px;
+                    height: 80px;
+                    display: flex;
+                    gap: 40px;
+                    margin-top: 72.5px;
+                    margin-left: 66px;
+                    img{
+                        width: 80px;
+                        height: 80px;
+                        // margin-top: 5px;
+                    }
+                    .why_us_text{
+                        width: 291px;
+                        height: 80px;
+                        h3{
+                            font-family: 'Exo 2';
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 27px;
+                            text-align: left;
+                            color: #363738;
+                            margin-top: -5px;
+                        }
+                        p{
+                            font-family: 'PT Sans';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            text-align: left;
+                            color: #6B6B6C;
+                            margin-top: 14px;
+                        }
+                    }
+                }
+                .our_amenities:nth-child(2){
+                    margin-top: 64px;
+                }
+            }
+        }
+        }
+        .our_works{
+            width: 1239px;
+            height: 618px;
+            background-color: #fff;
+            margin: auto;
+            margin-top: 120px;
+            .part_tittle{
+                h2{
+                    font-family: 'Exo 2';
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 60px;
+                    text-align: left;
+                    color: #363738;
+                }
+                h4{
+                    font-family: 'PT Sans';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #6B6B6C;
+                    margin-top: 20px;
+                }
+            }
+            .our_works_process_wrapper{
+                width: 1239px;
+                height: 440px;
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+                .our_works_process{
+                    width: 393px;
+                    height: 440px;
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    .info_works{
+                        margin: auto;
+                        margin-top: 24px;
+                        width: 327px;
+                        height: 137px;
+                        h4{
+                            font-family: 'Exo 2';
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 27px;
+                            text-align: left;
+                            color: #363738;
+                        }
+                        p{
+                            font-family: 'PT Sans';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            text-align: left;
+                            color: #6B6B6C;
+                            padding-top: 14px;
+                            padding-bottom: 20px;
+                        }
+                        span{
+                            font-family: 'Exo 2';
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 21.6px;
+                            text-align: left;
+                            color: #363738;
+                            border-bottom: 3px solid #FFCE50;
+                            padding-bottom: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .clients{
+            width: 1240px;
+            height: 917px;
+            background-color: #0b7572;
+            margin: auto;
+            margin-top: 212px;
+            position: relative;
+            h2{
+                width: 477px;
+                position: absolute;
+                font-family: 'Exo 2';
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: #FFFFFF;
+                top: 100px;
+                left: 88px;
+            }
+            .paper{
+                width: 652px;
+                height: 747px;
+                position: absolute;
+                top: 85px;
+                right: 66px;
+                background-color: #fff;
+                border-radius: 8px;
+                .head_part{
+                    width: 571px;
+                    height: 62px;
+                    margin-top: 28px;
+                    margin-left: 41px;
+                    display: flex;
+                    margin-bottom: 20px;
+                    justify-content: space-between;
+                    .head_text{
+                        width: 274px;
+                        height: 62px;
+                        p{
+                            font-family: 'PT Sans';
+                            font-size: 11px;
+                            font-weight: 400;
+                            line-height: 16.5px;
+                            text-align: left;
+                            color: #6B6B6C;
+                        }
+                    }
+                }
+                .line{
+                    width: 588px;
+                    border:1px solid #D7D7DD;
+                    margin: auto;
+                }
+                table{
+                    width: 588px;
+                    height: 553px;
+                    margin: auto;
+                    margin-top: 20px;
+                    background-color: orange;
+                    tr:first-child{
+                        width: 588px;
+                        height: 45px;
+                        border:1px solid #333;
+
+                        th{
+                            border:1px solid#343223;
+                        }
+                    }
+                }
+            }
+        }
+        .steps{
+            width: 1236px;
+            height: 883px;
+            margin: auto;
+            margin-top: 120px;
+            // border:1px solid #3333;
+            background-color: white;
+            h2{
+                font-family: 'Exo 2';
+                font-size: 38px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: #363738;
+            }
+            .steps_wrapper{
+                width: 1236px;
+                height: 783px;
+                margin-top: 48px;
+                .step_item{
+                    width: 1183px;
+                    height: 245px;
+                    border-radius: 4px;
+                    margin-left: 52px;
+                    box-shadow: 0px 4px 15px 0px #0000001F;
+                    padding-left: 96px;
+                    padding-top: 32px;
+                    display: flex;
+                    margin-bottom: 20px;
+                    img{
+                        width: 331px;
+                        height: 181px;
+                    }
+                    .steps_info{
+                        width: 568px;
+                        margin-left: 56px;
+                        h3{
+                            width: 258px;
+                            font-family: 'Exo 2';
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: left;
+                            color: #363738;
+                            border-bottom: 3px solid #FFCE50;
+                            padding-bottom: 15px;
+                        }
+                        p{
+                            font-family: 'PT Sans';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            text-align: left;
+                            color: #6B6B6C;
+                            margin-top: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        .clients_logo{
+        width: 1212px;
+            height: 576px;
+            background-color: #fff;
+            margin: auto;
+            margin-top: 120px;
+            h2{
+                font-family: 'Exo 2';
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: #363738;
+            }
+            .client_logo_part{
+                width: 1165px;
+                height: 437px;
+                // background-color: aqua;
+                margin: auto;
+                margin-top: 77px;
+                .part_item{
+                    display: flex;
+                    gap: 3px;
+                    margin-top: 71px;
+                    .logo_item{
+                    width: 620px;
+                    height: 183px;
+                    // background-color: green;
+                    display: flex;
+                    justify-content: space-around;
+                    .card{
+                        width: 184px;
+                        height: 183px;
+                        // background-color: #de6d6d;
+                        img{
+                            margin-left: 52px;
+                        }
+                        h3{
+                            font-family: 'Exo 2';
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 27px;
+                            margin-left: 49px;
+                            margin-top: 20px;
+                        }
+                        p{
+                            font-family: 'PT Sans';
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            text-align: center;
+                            width: 184px;
+                            color: #6B6B6C;
+                            margin-top: 6px;
+                        }
+                    }
+                    .card:first-child{
+                        padding-right: 70px;
+                        // border-right: 1px solid #D7D7DD;
+                    }
+                    .card:nth-child(2){
+                        
+                        // border-left: 1px solid #000;
+                        img{
+                            margin-left: 17px;
+                        }
+                        h3{
+                            margin-top: 50px;
+                        }
+                    }
+                }
+                .logo_item_2{
+                    .card:first-child{
+                        img{
+                            margin-left: 30px;
+                        }
+                    }
+                    .card:nth-child(2){
+                        width: 225px;
+                        img{
+                            margin-left: 74px;
+                        }
+                        h3{
+                            margin-top: 26px;
+                            margin-left: 69px;
+                        }
+                        p{
+                            margin-left: 17px;
+                        }
+                    }
+                }
+            }
+            .second_part_item{
+                .logo_item{
+                    .card:first-child{
+                        img{
+                            margin-top: 26.7px;
+                            margin-left: 1px;
+                        }
+                        h3{
+                            margin-top: 42px;
+                        }
+                    }
+                    .card:nth-child(2){
+                        img{
+                            margin-top: 9px;
+                            margin-left: 45px;
+                        }
+                        h3{
+                            margin-top: 22px;
+                        }
+                    }
+                }
+                .logo_item_2{
+                    .card:first-child{
+                        img{
+                            margin-left: 56px;
+                            margin-top: 4px;
+                        }
+                        h3{
+                            margin-top: 17px;
+                            margin-left: 62px;
+                        }
+                    }
+                    .card:last-child{
+                        width: 184px;
+                        margin-left: -20px;
+                        img{
+                            margin-left: 18px;
+                            margin-top: 22px;
+                        }
+                        h3{
+                            margin-left: 48px;
+                            margin-top: 44px;
+                        }
+                        p{
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        }
+        .our_team{
+            width: 1240px;
+            height: 799px;
+            background-color: #fff;
+            margin: auto;
+            margin-top: 130px;
+            h2{
+                font-family: 'Exo 2';
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: #363738;
+            }
+            .person_wrapper{
+                width: 1240px;
+                height: 210px;
+                display: flex;
+                gap: 30px;
+                .person_card{
+                    width: 605px;
+                    height: 210px;
+                    border-radius: 10px;
+                    border-left: 51px solid #0B7572;
+                    background-color:#FFCE50;
+                    img{
+                        width: 138px;
+                        height: 138px;
+                        margin-top: 33px;
+                        margin-left: 33px;
+                    }
+                }
+            }
+        }
+    }
+}
