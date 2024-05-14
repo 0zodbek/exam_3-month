@@ -37,7 +37,6 @@ main .wrapper .main_screen .main_info h1 {
   font-size: 52px;
   font-weight: 600;
   line-height: 65px;
-  text-align: left;
   color: #363738;
 }
 main .wrapper .main_screen .main_info p {
@@ -46,7 +45,6 @@ main .wrapper .main_screen .main_info p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
   color: #6B6B6C;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -57,7 +55,6 @@ main .wrapper .main_screen .main_info a {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  text-align: left;
   color: #363738;
   border-bottom: 3px solid #FFCE50;
 }
@@ -79,19 +76,20 @@ main .wrapper .services {
   padding-left: 80px;
   padding-bottom: 56px;
 }
+main .wrapper .services .Search_for_manufacturers_by_product {
+  margin-right: 57px;
+}
 main .wrapper .services .Search_for_manufacturers_by_product:first-child {
   border-left: none;
   padding-left: 0;
-  margin-right: 57px;
 }
 main .wrapper .services .Search_for_manufacturers_by_product:nth-child(2) {
   padding-left: 64;
   margin-right: 0;
-  margin-left: 57px;
+  margin-right: 121px;
 }
 main .wrapper .services .Search_for_manufacturers_by_product:last-child {
   padding-left: 64px;
-  margin-left: 121px;
 }
 main .wrapper .services .Search_for_manufacturers_by_product {
   width: 292px;
@@ -102,7 +100,6 @@ main .wrapper .services .Search_for_manufacturers_by_product {
   grid-row: auto;
 }
 main .wrapper .services .Search_for_manufacturers_by_product h3 {
-  width: 228px;
   font-size: 20px;
   font-family: "Exo 2";
   font-weight: 600;
@@ -240,6 +237,11 @@ main .wrapper .our_works .our_works_process_wrapper .our_works_process {
   border-radius: 10px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
 }
+main .wrapper .our_works .our_works_process_wrapper .our_works_process .img {
+  width: 393px;
+  height: 247px;
+  background-image: url(../images/laptop/Rectangle_1.png);
+}
 main .wrapper .our_works .our_works_process_wrapper .our_works_process .info_works {
   margin: auto;
   margin-top: 24px;
@@ -273,6 +275,12 @@ main .wrapper .our_works .our_works_process_wrapper .our_works_process .info_wor
   color: #363738;
   border-bottom: 3px solid #FFCE50;
   padding-bottom: 3px;
+}
+main .wrapper .our_works .our_works_process_wrapper .our_works_process:nth-child(2) .img {
+  background-image: url(../images/laptop/Rectangle_2.png);
+}
+main .wrapper .our_works .our_works_process_wrapper .our_works_process:nth-child(3) .img {
+  background-image: url(../images/laptop/Rectangle_3.png);
 }
 main .wrapper .clients {
   width: 1240px;
@@ -978,9 +986,263 @@ main .wrapper .foot .foot_container_wrapper h2 {
   color: #fff;
 }
 
-@media screen and (max-widht: 768px) {
-  main {
-    background-color: #234432;
-    overflow-x: none;
+@media screen and (max-width: 768px) {
+  main .wrapper .main_screen {
+    display: block;
+    width: 690px;
+    height: 626px;
+    margin: 0px auto;
+  }
+  main .wrapper .main_screen .main_info {
+    width: 690px;
+    height: 239px;
+    text-align: center;
+  }
+  main .wrapper .main_screen .main_info h1 {
+    font-size: 44px;
+  }
+  main .wrapper .main_screen .main_info p {
+    text-align: center;
+    margin: 49px auto;
+  }
+  main .wrapper .main_screen .main_info a {
+    text-align: center;
+    margin: auto;
+  }
+  main .wrapper .main_screen .main_image {
+    width: 690px;
+    height: 314px;
+    margin-top: 79px;
+    background-image: url(../images/tablet/main_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .wrapper .services {
+    margin-top: 41px;
+    width: 690px;
+    height: 524px;
+    display: block;
+    box-shadow: none;
+    padding: 0;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product {
+    width: 100%;
+    height: 164px;
+    display: flex;
+    border: none;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+    padding: 0;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product img {
+    width: 92px;
+    height: 92px;
+    margin-left: 32px;
+    margin: 32px;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product .wrap {
+    margin-left: 32px;
+    width: 394px;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product .wrap h2 {
+    font-size: 19px;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product .wrap p {
+    width: 394px;
+    font-size: 15px;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product:last-child {
+    padding-left: 0;
+  }
+  main .wrapper .services .Search_for_manufacturers_by_product:last-child img {
+    padding-left: 0;
+  }
+  main .wrapper .why_us {
+    width: 729px;
+    height: 928px;
+    margin: auto;
+    margin-top: 97px;
+  }
+  main .wrapper .why_us .img_part {
+    width: 729px;
+    height: 383px;
+    background-image: url(../images/tablet/why_us_bg.png);
+  }
+  main .wrapper .why_us .img_part .trak {
+    width: 600px;
+    height: 383px;
+    z-index: 4;
+    background-image: url(../images/tablet/why_us_bgc.png);
+  }
+  main .wrapper .why_us .img_part .trak h2 {
+    top: 112px;
+    left: 85px;
+    font-size: 44px;
+    width: 288px;
+  }
+  main .wrapper .why_us .why_us_info_wrapper {
+    width: 496px;
+    display: block;
+  }
+  main .wrapper .why_us .why_us_info_wrapper .why_us_info {
+    width: 100%;
+  }
+  main .wrapper .why_us .why_us_info_wrapper .why_us_info .our_amenities {
+    width: 100%;
+  }
+  main .wrapper .why_us .why_us_info_wrapper .why_us_info .our_amenities .why_us_text {
+    margin-left: 49px;
+    width: 392px;
+  }
+  main .wrapper .why_us .why_us_info_wrapper .why_us_info:nth-child(2) {
+    margin-top: -80px;
+  }
+  main .wrapper .our_works {
+    width: 690px;
+    height: 1036px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  main .wrapper .our_works .part_tittle {
+    width: 687px;
+    height: 110px;
+  }
+  main .wrapper .our_works .part_tittle h2 {
+    font-size: 44px;
+  }
+  main .wrapper .our_works .part_tittle h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 32px;
+  }
+  main .wrapper .our_works .our_works_process_wrapper {
+    display: block;
+    width: 690px;
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process {
+    width: 100%;
+    display: block;
+    height: 423px;
+    margin-bottom: 32px;
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process .info_works {
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process .info_works p {
+    width: 509px;
+    font-size: 15px;
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process .img {
+    width: 100%;
+    background-image: url(../images/tablet/Rectangle_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process .our_works {
+    width: 100%;
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process:nth-child(2) .img {
+    background-image: url(../images/tablet/Rectangle_2.png);
+  }
+  main .wrapper .our_works .our_works_process_wrapper .our_works_process:last-child {
+    display: none;
+  }
+  main .wrapper .clients {
+    width: 768px;
+    height: 971px;
+    display: block;
+    margin: auto;
+    margin-top: 172px;
+  }
+  main .wrapper .clients h2 {
+    width: 328px;
+    height: 100px;
+    font-size: 44px;
+    margin-top: -64px;
+    margin-left: -39px;
+  }
+  main .wrapper .clients .paper {
+    width: 687px;
+    height: 695px;
+    margin: auto;
+    margin-top: 118px;
+    margin-left: 19px;
+  }
+  main .wrapper .steps {
+    width: 746.5px;
+    height: 860px;
+    margin: auto;
+  }
+  main .wrapper .steps h2 {
+    font-size: 44px;
+    margin-left: 19px;
+  }
+  main .wrapper .steps .steps_wrapper {
+    width: 693.5px;
+    margin-left: 15px;
+  }
+  main .wrapper .steps .steps_wrapper .step_item {
+    width: 746.5px;
+    height: 245px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    padding-left: 85px;
+    padding-top: 40px;
+  }
+  main .wrapper .steps .steps_wrapper .step_item img {
+    display: none;
+  }
+  main .wrapper .clients_logo {
+    width: 800px;
+    height: 1001px;
+    margin: auto;
+  }
+  main .wrapper .clients_logo .client_logo_part {
+    width: 687px;
+  }
+  main .wrapper .clients_logo .client_logo_part .part_item {
+    display: block;
+  }
+  main .wrapper .clients_logo .client_logo_part .part_item .logo_item_2 {
+    margin-top: 32px;
+  }
+  main .wrapper .clients_logo .client_logo_part .part_item .logo_item_2 .card:first-child {
+    border: none;
+    margin-right: 123px;
+  }
+  main .wrapper .clients_logo .client_logo_part .second_part_item .logo_item_2 .card:first-child {
+    margin-right: 80px;
+  }
+  main .wrapper .our_team {
+    width: 690px;
+    height: 703px;
+  }
+  main .wrapper .our_team .person_wrapper {
+    margin-bottom: 120px;
+  }
+  main .wrapper .our_team .person_wrapper .person_card {
+    width: 330px;
+    height: 289px;
+    display: block;
+    border-left: 30px solid #0B7572;
+  }
+  main .wrapper .our_team .person_wrapper .person_card img {
+    margin: 25px;
+  }
+  main .wrapper .our_team .person_wrapper .person_card .person_info {
+    margin-top: -50px;
+    margin-left: 12px;
+  }
+  main .wrapper .our_team .person_wrapper .person_card .person_info .social_links {
+    margin-top: -20px;
+    margin-left: 9px;
+  }
+  main .wrapper .our_team .person_wrapper:last-child {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
